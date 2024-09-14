@@ -7,7 +7,6 @@ import BackgroundAnimated from "./background";
 export default function App() {
   return (
     <>
-    <div className="opacity-100 absolute blur-3xl -z-10"><BackgroundAnimated/></div>
     <Canvas>
       <Environment preset="city"/>
       <directionalLight intensity={1} position={[0, 3, 2]}/>

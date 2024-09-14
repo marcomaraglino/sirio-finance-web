@@ -1,8 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import ScrollTypingEffect from './typingeffect.jsx'
-import Typewriter from './typingeffect.jsx';
 
 const web3Text = "Web3 represents the next evolution of the internet, emphasizing decentralization, blockchain technology, and user empowerment. It aims to create a more open, transparent, and user-centric digital ecosystem where individuals have greater control over their data and digital assets. Web3 technologies, such as cryptocurrencies and decentralized applications (dApps), are reshaping industries like finance, art, and governance, promising a future where intermediaries are minimized and peer-to-peer interactions are the norm.";
 

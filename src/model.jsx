@@ -7,7 +7,6 @@ export default function Model() {
     const { nodes } = useGLTF("/black_hole.glb");
     const { viewport } = useThree()
     const torus = useRef(null);
-    console.log(nodes)
     
     useFrame( (state, delta) => {
         torus.current.rotation.z += delta * 0.5

@@ -3,7 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import Model from "./model";
 import "./App.css";
 import BackgroundAnimated from "./background";
-import { viewport } from "three/webgpu";
 
 export default function App() {
   return (

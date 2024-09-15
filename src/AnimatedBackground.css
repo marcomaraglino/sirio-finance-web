@@ -1,0 +1,30 @@
+/* Container for blurred circles */
+.blurred-circles-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #1f6f8b, #99a8b2); /* Background gradient */
+    z-index: -1;
+  }
+  
+  /* Individual blurred circle */
+  .blurred-circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    filter: blur(50px);
+    animation: moveCircle infinite alternate ease-in-out;
+  }
+  
+  /* Keyframes for circle movement */
+  @keyframes moveCircle {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    100% {
+      transform: translate(100px, -100px) scale(1.2);
+    }
+  }

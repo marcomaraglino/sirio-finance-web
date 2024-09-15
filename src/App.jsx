@@ -8,6 +8,7 @@ import { Suspense } from "react";
 export default function App() {
   return (
     <>
+    <div className="-z-10 opacity-45 absolute blur-3xl"><BackgroundAnimated/></div>
     <Suspense fallback={<div>Loading...</div>}>
     <Canvas>
       <Environment preset="city"/>

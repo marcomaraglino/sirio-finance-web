@@ -3,7 +3,6 @@ import { Canvas } from "@react-three/fiber";
 import Model from "./model";
 import "./App.css";
 import { Suspense } from "react";
-import AnimatedBackground from "./background";
 
 export default function App() {
   return (
